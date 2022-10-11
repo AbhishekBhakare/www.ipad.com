@@ -1,3 +1,32 @@
-h1{
-    background-color: red;
+.main{
+    height: 1000px;
+    width: 1850px;
+    margin: auto;
+  border: 5px solid yellow;
+}
+.image{
+    height: 28vh;
+    display: flex;
+    /* display: inline; */
+    /* background-color: chocolate; */
+}
+.content{
+    float: left;
+    /* height: 300px;
+    width: 300px; */
+font-size: 20px;
+background-color: yellow;
+}
+.name{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+}
+@media (max-width:800px){
+    .content{color: white ; font-size: 20px; background-color: brown;}
+}
+@media (max-width:900px){
+    .main{
+       background-color: magenta;
+    }
 }
